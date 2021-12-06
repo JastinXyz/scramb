@@ -1,0 +1,21 @@
+{
+  "name": "scramb",
+  "version": "2.0.5",
+  "description": "Randomize anything...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "randomize",
+    "scrambler",
+    "something-random",
+    "random-option",
+    "scrambler",
+    "number",
+    "string"
+  ],
+  "author": "JastinLT <jastinlinggar@gmail.com>",
+  "license": "MIT"
+}
