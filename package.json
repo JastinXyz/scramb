@@ -1,6 +1,6 @@
 {
   "name": "scramb",
-  "version": "2.0.5",
+  "version": "3.0.0",
   "description": "Randomize anything...",
   "main": "index.js",
   "scripts": {
