@@ -27,4 +27,3 @@ const randomString = (str, number) => {
 }
 
 module.exports = randomString;
-
