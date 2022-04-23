@@ -5,6 +5,7 @@ module.exports = {
   isString: require("./src/checker/isString.js"),
   isURL: require("./src/checker/isUrl.js"),
   makeId: require("./src/string/makeid.js"),
+  makeidNumber: require("./src/string/makeidnumber.js"),
   minMax: require("./src/another tools/min-max.js"),
   option: require("./src/arr/options.js"),
   passGen: require("./src/string/password-gen.js"),
