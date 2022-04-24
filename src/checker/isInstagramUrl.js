@@ -1,4 +1,4 @@
-const isInstagramUrl = (url) => {
+const isInstagramURL = (url) => {
     if (!url) {
         throw new Error("[ SCRAMB ERR ] value required.");
       } else {
