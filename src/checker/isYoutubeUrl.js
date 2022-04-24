@@ -1,4 +1,4 @@
-const isYoutubeUrl = (url) => {
+const isYoutubeURL = (url) => {
     if (!url) {
         throw new Error("[ SCRAMB ERR ] value required.");
       } else {
@@ -10,4 +10,4 @@ const isYoutubeUrl = (url) => {
       }
 }
 
-module.exports = isYoutubeUrl
+module.exports = isYoutubeURL;
