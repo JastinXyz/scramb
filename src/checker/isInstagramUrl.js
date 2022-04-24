@@ -10,4 +10,4 @@ const isInstagramURL = (url) => {
       }
 }
 
-module.exports = isInstagramUrl;
+module.exports = isInstagramURL;
