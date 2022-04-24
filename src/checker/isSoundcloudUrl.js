@@ -1,4 +1,4 @@
-const isSoundcloudUrl = (url) => {
+const isSoundcloudURL = (url) => {
     if (!url) {
         throw new Error("[ SCRAMB ERR ] value required.");
       } else {
@@ -10,4 +10,4 @@ const isSoundcloudUrl = (url) => {
       }
 }
 
-module.exports = isSoundcloudUrl;
+module.exports = isSoundcloudURL;
