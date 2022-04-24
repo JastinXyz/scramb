@@ -20,12 +20,8 @@ const makeid = scramb.makeId(8)
 console.log(makeid) // e.g Result: { result: 'VYbF8638' }
 ```
 
-## What's new in v3.0.4?
-- Added make id but only numbers.
-- Added magic conch shell.
-- Added array shuffle.
-- Added random falsy result.
-- Fixed the comparison in the docs...
+## What's new in v3.0.6?
+- added isInstagramURL, isYoutubeURL, isSoundcloudURL
 
 ## Function
 [**Find all functions in our website...**](https://jastinxyz.github.io/scramb) Maybe in the future there will be many other functions.
