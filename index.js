@@ -6,6 +6,7 @@ module.exports = {
   isNumber: require("./src/checker/isNumber.js"),
   isInstagramUrl: require("./src/checker/isInstagramUrl.js"),
   isYoutubeUrl: require("./src/checker/isYoutubeUrl.js"),
+  isSoundcloudUrl: require("./src/checker/isSoundcloudUrl.js"),
   isString: require("./src/checker/isString.js"),
   isURL: require("./src/checker/isUrl.js"),
   magicConchShell: require("./src/arr/magicconchshell.js"),
