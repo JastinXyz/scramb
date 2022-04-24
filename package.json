@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JastinXyz/scramb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JastinXyz/scramb/issues"
+  },
+  "homepage": "https://jastinxyz.github.io/scramb",
   "keywords": [
     "random",
     "randomize",
