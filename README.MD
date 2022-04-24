@@ -7,12 +7,12 @@
 
 </div>
 
-# Instalation
+## Instalation
 ```cli
 npm i scramb
 ```
 
-# Example
+## Example
 ```js
 const scramb = require('scramb')
 
@@ -20,79 +20,26 @@ const makeid = scramb.makeId(8)
 console.log(makeid) // e.g Result: { result: 'VYbF8638' }
 ```
 
-# All Function
-Maybe in the future there will be many other functions.
-#
-## What's new in v3.0.0?
-- True or False changed to boolean
-- Docs at https://jastinxyz.github.io/scramb/
-- Added Random User Agent
-- Added email checker
-- Added url checker
-- Added rps
+## What's new in v3.0.4?
+- Added make id but only numbers.
+- Added magic conch shell.
+- Added array shuffle.
+- Added random falsy result.
+- Fixed the comparison in the docs...
 
-#
-- Boolean
-```js
-scramb.boolean()
-```
-- Yes No
-```js
-scramb.yesNo()
-```
-- Option
-```js
-scramb.option('option1', 'option2')
-```
-- Random Array
-```js
-const array = // ... something array
-scramb.randomArr(array)
-```
-- Make Id
-```js
-const number = // number for id length
-scramb.makeId(number)
-```
-- Password Generator
-```js
-const number = // number for password length
-scramb.passGen(number)
-```
-- Random String
-```js
-scramb.randomString('STRING', 'NUMBER OF LENGTH')
-```
-- String Checker
-```js
-scramb.isString(SOME VALUE)
-```
-- Number Checker
-```js
-scramb.isNumber(SOME VALUE)
-```
-- Min Max
-```js
-scramb.minMax("min number", "max number")
-```
-- Random user agent
-```js
-scramb.userAgents()
-```
-- Is Email
-```js
-scramb.isEmail("STRING")
-```
-- Is URL
-```js
-scramb.isURL("STRING")
-```
-- Rock Paper Scissors
-```js
-scramb.rps()
-```
+## Function
+[**Find all functions in our website...**](https://jastinxyz.github.io/scramb) Maybe in the future there will be many other functions.
 
-# Changelog
+## Changelog
+[v3.0.4](https://www.npmjs.com/package/scramb/v/3.0.4)
+
+- [+] `<scramb>.makeidNumber("length")` - From contributor ([ThisMe124](https://github.com/ThisMe124))
+- [+] `<scramb>.magicConchShell()`
+- [+] `<scramb>.shuffle(["array"])`
+- [+] `<scramb>.coin()`
+- [+] `<scramb>.falsy()`
+- [/] Fixed the comparison in the docs...
+
 [v3.0.0](https://www.npmjs.com/package/scramb/v/3.0.0)
 - [/] `Changed <scramb>.trueOrFalse() to <scramb>.boolean()`
 - [+] `Docs At https://jastinxyz.github.io/scramb/`
@@ -109,9 +56,8 @@ scramb.rps()
 [v2.0.0](https://www.npmjs.com/package/scramb/v/2.0.0)
 - First stable release
 
-# Links
-- <strong>[GITHUB](https://github.com/JastinXyz)</strong>
-- <strong>[MY WEBSITE](https://jastinch.xyz)</strong>
-- <strong>[Ko-Fi](https://ko-fi/jastinch)</strong>
-- <strong>[Saweria](https://saweria.co/jastinch)</strong>
-- <strong>[Trakteer](https://trakteer.id/jastinch)</strong>
+# Contributors
+
+<a href = "https://github.com/JastinXyz/scramb/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=JastinXyz/scramb"/>
+</a>
